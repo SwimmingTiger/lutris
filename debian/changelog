@@ -1,3 +1,12 @@
+net.winegame.client (0.5.8.1) plum; urgency=medium
+
+  * 主界面UI更改，取消右侧边栏，把常用操作置于底部下拉按钮中。
+  * 安装时可选择手动指定文件或者使用缓存。
+  * 可从 GOG 和 Humble Bundle 同步游戏库。
+  * 同步 Steam 游戏库不再需要通过网站操作，只需本地安装 Linux Steam 即可同步。
+
+ -- 老虎会游泳 <hu60.cn@qq.com>  Sun, 29 Nov 2020 11:57:42 +0800
+
 lutris (0.5.8.1) groovy; urgency=medium
 
   * Remove Proton from available Wine versions
@@ -88,6 +97,14 @@ lutris (0.5.7.1) focal; urgency=medium
     Direct3D 12 titles such as World of Warcraft.
 
  -- Mathieu Comandon <strider@strycore.com>  Sat, 18 Jul 2020 14:35:23 -0700
+
+net.winegame.client (0.5.7) cn; urgency=medium
+
+  * 首个为中国定制的Linux游戏平台
+  * 具有中国境内的服务器，组件下载速度快
+  * 可一键安装中国玩家常见的游戏
+
+ -- 老虎会游泳 <hu60.cn@qq.com>  Wed, 1 Jul 2020 18:58:25 +0800
 
 lutris (0.5.7) focal; urgency=medium
 
