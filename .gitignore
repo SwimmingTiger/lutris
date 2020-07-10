@@ -33,3 +33,6 @@ env
 
 # glade recovery files
 *.ui~
+
+# preinstalled runtimes & runners
+/deepin/files/plugins
