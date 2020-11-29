@@ -17,8 +17,8 @@ msgstr ""
 #: share/metainfo/net.lutris.Lutris.metainfo.xml:10
 #: share/lutris/ui/lutris-window.ui:359 lutris/gui/application.py:69
 #: lutris/gui/widgets/status_icon.py:116 lutris/services/lutris.py:64
-msgid "Lutris"
-msgstr "Lutris"
+msgid "WineGame Helper"
+msgstr "Wine游戏助手"
 
 #: share/applications/net.lutris.Lutris.desktop:4
 msgid "open source gaming platform"
@@ -56,12 +56,12 @@ msgstr ""
 "Uplay等各个平台的游戏。"
 
 #: share/lutris/ui/about-dialog.ui:8 share/lutris/ui/lutris-window.ui:183
-msgid "About Lutris"
-msgstr "关于 Lutris"
+msgid "About"
+msgstr "关于"
 
 #: share/lutris/ui/about-dialog.ui:18
-msgid "Open Source Gaming Platform"
-msgstr "开放源代码游戏平台"
+msgid "Open Source Gaming Platform based on Lutris"
+msgstr "开放源代码游戏平台Lutris的中国定制版"
 
 #: share/lutris/ui/about-dialog.ui:21
 msgid ""
@@ -511,7 +511,7 @@ msgstr "从 yml 文件安装游戏"
 
 #: lutris/gui/application.py:134
 msgid "Generate a bash script to run a game without the client"
-msgstr "生成 bash 脚本以在没有 lutris 客户端的情况下运行游戏"
+msgstr "生成 bash 脚本以在没有Wine游戏助手客户端的情况下运行游戏"
 
 #: lutris/gui/application.py:142
 msgid "Execute a program with the lutris runtime"
@@ -646,19 +646,15 @@ msgstr "游戏信息"
 
 #: lutris/gui/config/common.py:103
 msgid "Minimize client when a game is launched"
-msgstr "游戏启动时最小化 Lutris 客户端"
+msgstr "启动游戏后最小化Wine游戏助手客户端"
 
 #: lutris/gui/config/common.py:104
 msgid "Hide text under icons"
-msgstr "隐藏图标下方文字"
+msgstr "隐藏图标下方文字（重启客户端生效）"
 
 #: lutris/gui/config/common.py:105
 msgid "Show Tray Icon"
-msgstr "显示托盘图标"
-
-#: lutris/gui/config/common.py:110
-msgid "Lutris preferences"
-msgstr "Lutris 首选项"
+msgstr "显示托盘图标（重启客户端生效）"
 
 #: lutris/gui/config/common.py:123
 msgid "Copy System Info"
@@ -823,7 +819,7 @@ msgid "Please choose a file"
 msgstr "选择一个文件"
 
 #: lutris/gui/dialogs/__init__.py:178
-msgid "Lutris is starting..."
+msgid "Updating runtimes..."
 msgstr "正在更新运行环境..."
 
 #: lutris/gui/dialogs/__init__.py:204
@@ -1191,7 +1187,7 @@ msgstr ""
 "<b>%s</b>"
 
 #: lutris/gui/widgets/game_bar.py:172
-msgid "Launching"
+msgid "Updating DXVK"
 msgstr "更新DXVK..."
 
 #: lutris/gui/widgets/sidebar.py:126 lutris/gui/widgets/sidebar.py:153
@@ -1249,8 +1245,8 @@ msgid "Running"
 msgstr "运行中"
 
 #: lutris/gui/widgets/status_icon.py:67
-msgid "Show Lutris"
-msgstr "显示 Lutris"
+msgid "Show Main Window"
+msgstr "显示主窗口"
 
 #: lutris/gui/widgets/status_icon.py:72
 msgid "Quit"

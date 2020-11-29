@@ -63,8 +63,8 @@ class LutrisStatusIcon:
         menu.append(Gtk.SeparatorMenuItem())
 
         present_menu = Gtk.ImageMenuItem()
-        present_menu.set_image(Gtk.Image.new_from_icon_name("lutris", Gtk.IconSize.MENU))
-        present_menu.set_label(_("Show Lutris"))
+        present_menu.set_image(Gtk.Image.new_from_icon_name("net.winegame.client", Gtk.IconSize.MENU))
+        present_menu.set_label(_("Show Main Window"))
         present_menu.connect("activate", self.on_activate)
         menu.append(present_menu)
 
@@ -113,7 +113,7 @@ class LutrisTray(Gtk.StatusIcon):
 
     def __init__(self, application, **_kwargs):
         super().__init__()
-        self.set_tooltip_text(_("Lutris"))
+        self.set_tooltip_text(_("WineGame Helper"))
         self.set_visible(True)
         self.application = application
-        self.set_from_icon_name("lutris")
+        self.set_from_icon_name("net.winegame.client")

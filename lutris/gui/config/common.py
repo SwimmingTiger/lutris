@@ -107,7 +107,7 @@ class GameDialogCommon:
         for setting_key, label in settings_options.items():
             prefs_box.pack_start(self._get_setting_box(setting_key, label), False, False, 6)
         info_sw = self.build_scrolled_window(prefs_box)
-        self._add_notebook_tab(info_sw, _("Lutris preferences"))
+        self._add_notebook_tab(info_sw, _("Preferences"))
 
     def _build_sysinfo_tab(self):
         sysinfo_box = Gtk.VBox()

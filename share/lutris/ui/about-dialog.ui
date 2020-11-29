@@ -5,17 +5,17 @@
   <object class="GtkAboutDialog" id="about_dialog">
     <property name="can_focus">False</property>
     <property name="border_width">5</property>
-    <property name="title" translatable="yes">About Lutris</property>
+    <property name="title" translatable="yes">About WineGame Helper</property>
     <property name="modal">True</property>
     <property name="window_position">center-on-parent</property>
     <property name="destroy_with_parent">True</property>
-    <property name="icon_name">lutris</property>
+    <property name="icon_name">net.winegame.client</property>
     <property name="type_hint">dialog</property>
     <property name="skip_taskbar_hint">True</property>
     <property name="skip_pager_hint">True</property>
-    <property name="program_name">Lutris</property>
-    <property name="copyright">© 2010, 2020 Mathieu Comandon</property>
-    <property name="comments" translatable="yes">Open Source Gaming Platform</property>
+    <property name="program_name" translatable="yes">WineGame Helper</property>
+    <property name="copyright" translatable="yes">© 2010, 2020 Mathieu Comandon, SwimmingTiger</property>
+    <property name="comments" translatable="yes">Open Source Gaming Platform based on Lutris</property>
     <property name="website">https://winegame.net</property>
     <property name="website_label">https://winegame.net</property>
     <property name="license" translatable="yes">This program is free software: you can redistribute it and/or modify
@@ -31,7 +31,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
 </property>
-    <property name="authors">The Lutris team</property>
+    <property name="authors" translatable="yes">The Lutris team, SwimmingTiger</property>
     <property name="logo">../media/logo.svg</property>
     <property name="wrap_license">True</property>
     <property name="license_type">gpl-3-0</property>

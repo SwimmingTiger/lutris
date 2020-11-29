@@ -66,7 +66,7 @@ class Application(Gtk.Application):
         GObject.add_emission_hook(Game, "game-stop", self.on_game_stop)
         GObject.add_emission_hook(Game, "game-install", self.on_game_install)
 
-        GLib.set_application_name(_("Lutris"))
+        GLib.set_application_name(_("WineGame Helper"))
         self.window = None
 
         init_dialog = LutrisInitDialog(init_lutris)

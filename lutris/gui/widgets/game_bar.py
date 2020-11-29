@@ -169,7 +169,7 @@ class GameBar(Gtk.Fixed):
                 button.set_label(_("Play"))
                 button.connect("clicked", self.game_actions.on_game_launch)
             elif self.game.state == self.game.STATE_LAUNCHING:
-                button.set_label(_("Launching"))
+                button.set_label(_("Updating DXVK"))
                 button.set_sensitive(False)
             else:
                 button.set_label(_("Stop"))

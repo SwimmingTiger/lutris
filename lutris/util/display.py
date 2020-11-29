@@ -282,7 +282,7 @@ class DBusScreenSaverInhibitor:
         Returns a cookie that must be passed to the corresponding uninhibit() call.
         If an error occurs, None is returned instead."""
         try:
-            return self.proxy.Inhibit("(ss)", "Lutris", "Running game: %s" % game_name)
+            return self.proxy.Inhibit("(ss)", "WineGame Helper", "Running game: %s" % game_name)
         except Exception:
             return None
 

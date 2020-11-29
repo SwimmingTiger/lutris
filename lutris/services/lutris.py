@@ -61,8 +61,8 @@ class LutrisService(OnlineService):
     """Service for Lutris games"""
 
     id = "lutris"
-    name = _("Lutris")
-    icon = "lutris"
+    name = _("WineGame Helper")
+    icon = "net.winegame.client"
     online = True
     medias = {
         "icon": LutrisIcon,

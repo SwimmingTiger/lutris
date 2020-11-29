@@ -180,7 +180,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">False</property>
             <property name="action_name">win.about</property>
-            <property name="text" translatable="yes">About Lutris</property>
+            <property name="text" translatable="yes">About</property>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -356,8 +356,8 @@
   </object>
   <template class="LutrisWindow" parent="GtkApplicationWindow">
     <property name="can_focus">False</property>
-    <property name="title" translatable="yes">Lutris</property>
-    <property name="icon_name">lutris</property>
+    <property name="title" translatable="yes">WineGame Helper</property>
+    <property name="icon_name">net.winegame.client</property>
     <signal name="destroy" handler="on_destroy" swapped="no"/>
     <signal name="size-allocate" handler="on_resize" swapped="no"/>
     <child type="titlebar">
