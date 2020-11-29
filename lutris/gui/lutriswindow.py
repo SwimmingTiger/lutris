@@ -157,9 +157,9 @@ class LutrisWindow(Gtk.ApplicationWindow):  # pylint: disable=too-many-public-me
                 type="b",
                 default=self.show_hidden_games,
             ),
-            "open-forums": Action(lambda *x: open_uri("https://forums.lutris.net/")),
+            "open-forums": Action(lambda *x: open_uri("https://forums.winegame.net/")),
             "open-discord": Action(lambda *x: open_uri("https://discord.gg/Pnt5CuY")),
-            "donate": Action(lambda *x: open_uri("https://lutris.net/donate")),
+            "donate": Action(lambda *x: open_uri("https://winegame.net/donate")),
         }
 
         self.actions = {}
@@ -420,7 +420,7 @@ class LutrisWindow(Gtk.ApplicationWindow):  # pylint: disable=too-many-public-me
         if self.filters.get("text"):
             self.show_label(_("No games matching '%s' found ") % self.filters["text"])
         elif self.view.service == "lutris" and self.website_button.props.active:
-            self.show_label(_("Use search to find games on lutris.net"))
+            self.show_label(_("Use search to find games on winegame.net"))
         else:
             if self.filters.get("category") == "favorite":
                 self.show_label(_("Add games to your favorites to see them here."))

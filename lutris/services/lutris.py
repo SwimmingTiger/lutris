@@ -25,7 +25,7 @@ class LutrisBanner(ServiceMedia):
     dest_path = settings.BANNER_PATH
     file_pattern = "%s.jpg"
     api_field = 'banner_url'
-    url_pattern = "https://lutris.net/games/banner/%s.jpg"
+    url_pattern = "https://winegame.net/games/banner/%s.jpg"
 
     def get_media_urls(self):
         return {
@@ -39,7 +39,7 @@ class LutrisIcon(LutrisBanner):
     dest_path = settings.ICON_PATH
     file_pattern = "lutris_%s.png"
     api_field = 'icon_url'
-    url_pattern = "https://lutris.net/games/icon/%s.png"
+    url_pattern = "https://winegame.net/games/icon/%s.png"
 
 
 class LutrisGame(ServiceGame):

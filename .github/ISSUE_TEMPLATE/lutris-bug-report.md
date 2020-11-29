@@ -11,7 +11,7 @@ assignees: ''
 
 A clear and concise description of what the bug is.
 
-This repository isn't for reporting game bugs or game related issues. Feel free to contact us on [Discord](https://discordapp.com/invite/Pnt5CuY), the [Forums](https://forums.lutris.net), or the IRC channel #lutris on freenode.org for that. We'll try and help as best we can.
+This repository isn't for reporting game bugs or game related issues. Feel free to contact us on [Discord](https://discordapp.com/invite/Pnt5CuY), the [Forums](https://forums.winegame.net), or the IRC channel #lutris on freenode.org for that. We'll try and help as best we can.
 
 **Steps to reproduce**
 

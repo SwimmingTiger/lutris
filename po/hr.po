@@ -51,8 +51,8 @@ msgstr ""
 "program.  Ako niste, posjetite <http://www.gnu.org/licenses/>.\n"
 
 #: share/lutris/ui/dialog-lutris-login.ui:8
-msgid "Connect to lutris.net"
-msgstr "Poveži se sa lutris.net"
+msgid "Connect to winegame.net"
+msgstr "Poveži se sa winegame.net"
 
 #: share/lutris/ui/dialog-lutris-login.ui:26
 msgid "Forgot password?"
@@ -392,8 +392,8 @@ msgid "Install another version"
 msgstr "Instaliraj drugu inačicu"
 
 #: lutris/game_actions.py:100
-msgid "View on Lutris.net"
-msgstr "Pogledaj na lutris.net"
+msgid "View on winegame.net"
+msgstr "Pogledaj na winegame.net"
 
 #: lutris/game_actions.py:101
 msgid "Hide game from library"
@@ -1107,8 +1107,8 @@ msgstr "Prekini instalaciju?"
 
 #: lutris/gui/lutriswindow.py:130 lutris/gui/lutriswindow.py:131
 #: lutris/gui/lutriswindow.py:731
-msgid "Search Lutris.net"
-msgstr "Pretraži Lutris.net"
+msgid "Search winegame.net"
+msgstr "Pretraži winegame.net"
 
 #: lutris/gui/lutriswindow.py:550
 msgid "Synchronize library"
@@ -1133,10 +1133,10 @@ msgstr "Nemoguće povezivanje s vašim Lutris računom. Pokušajte ponovno."
 #: lutris/gui/lutriswindow.py:915
 msgid ""
 "Failed to retrieve game library. There might be some problems contacting "
-"lutris.net"
+"winegame.net"
 msgstr ""
 "Neuspjelo preuzimanje biblioteke igre. Možda postoji problem u povezivanje s "
-"lutris.net"
+"winegame.net"
 
 #: lutris/gui/views/game_panel.py:102
 #, python-format
@@ -4658,7 +4658,7 @@ msgstr ""
 #~ "Please consider making a donation if you can. This will greatly help "
 #~ "cover the costs of hosting the project and fund new features like cloud "
 #~ "saves or a full-screen interface for the TV!\n"
-#~ "<a href='https://lutris.net/donate'>SUPPORT US! https://lutris.net/"
+#~ "<a href='https://winegame.net/donate'>SUPPORT US! https://winegame.net/"
 #~ "donate</a>"
 #~ msgstr ""
 #~ "Lutris je u potpunosti osnovan od strane svoje zajednice i ostat će "
@@ -4667,5 +4667,5 @@ msgstr ""
 #~ "Razmotrite donaciju ako ste u mogućnosti. To će pomoći u pokrivanju "
 #~ "troškova web smještaja projekta i financirati nove značajke poput "
 #~ "spremanja u oblaku ili cjelozaslonskog sučelje za TV!\n"
-#~ "<a href='https://lutris.net/donate'>PODRŽITE NAS! https://lutris.net/"
+#~ "<a href='https://winegame.net/donate'>PODRŽITE NAS! https://winegame.net/"
 #~ "donate</a>"

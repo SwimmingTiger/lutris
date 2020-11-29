@@ -93,8 +93,8 @@ msgstr ""
 "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
 
 #: share/lutris/ui/dialog-lutris-login.ui:8
-msgid "Connect to lutris.net"
-msgstr "Verbinden met lutris.net"
+msgid "Connect to winegame.net"
+msgstr "Verbinden met winegame.net"
 
 #: share/lutris/ui/dialog-lutris-login.ui:26
 msgid "Forgot password?"
@@ -376,8 +376,8 @@ msgid "Install another version"
 msgstr "Andere versie installeren"
 
 #: lutris/game_actions.py:90
-msgid "View on Lutris.net"
-msgstr "Bekijken op Lutris.net"
+msgid "View on winegame.net"
+msgstr "Bekijken op winegame.net"
 
 #: lutris/game_actions.py:91
 msgid "Hide game from library"
@@ -934,8 +934,8 @@ msgid "Unable to get runner versions: %s"
 msgstr "De runner-versies kunnen niet worden opgehaald: %s"
 
 #: lutris/gui/dialogs/runner_install.py:74
-msgid "Unable to get runner versions from lutris.net"
-msgstr "De runner-versies kunnen niet worden opgehaald van lutris.net"
+msgid "Unable to get runner versions from winegame.net"
+msgstr "De runner-versies kunnen niet worden opgehaald van winegame.net"
 
 #: lutris/gui/dialogs/runner_install.py:83
 #, python-format
@@ -1127,8 +1127,8 @@ msgid "No games matching '%s' found "
 msgstr "Er zijn geen spellen die overeenkomen met \"%s\" "
 
 #: lutris/gui/lutriswindow.py:424
-msgid "Use search to find games on lutris.net"
-msgstr "Gebruik de zoekfuncties om spellen te zoeken op lutris.net"
+msgid "Use search to find games on winegame.net"
+msgstr "Gebruik de zoekfuncties om spellen te zoeken op winegame.net"
 
 #: lutris/gui/lutriswindow.py:427
 msgid "Add games to your favorites to see them here."
@@ -4504,8 +4504,8 @@ msgstr ""
 #~ msgid "Click install to continue"
 #~ msgstr "Klik op 'Installeren' om door te gaan"
 
-#~ msgid "Search Lutris.net"
-#~ msgstr "Lutris.net doorzoeken"
+#~ msgid "Search winegame.net"
+#~ msgstr "winegame.net doorzoeken"
 
 #~ msgid "Synchronize library"
 #~ msgstr "Verzameling synchroniseren"
@@ -4526,10 +4526,10 @@ msgstr ""
 
 #~ msgid ""
 #~ "Failed to retrieve game library. There might be some problems contacting "
-#~ "lutris.net"
+#~ "winegame.net"
 #~ msgstr ""
 #~ "De spelverzameling kan niet worden opgehaald. Wellicht kan er geen "
-#~ "verbinding worden gemaakt met lutris.net"
+#~ "verbinding worden gemaakt met winegame.net"
 
 #~ msgid "Close"
 #~ msgstr "Sluiten"
@@ -4764,7 +4764,7 @@ msgstr ""
 #~ "Please consider making a donation if you can. This will greatly help "
 #~ "cover the costs of hosting the project and fund new features like cloud "
 #~ "saves or a full-screen interface for the TV!\n"
-#~ "<a href='https://lutris.net/donate'>SUPPORT US! https://lutris.net/"
+#~ "<a href='https://winegame.net/donate'>SUPPORT US! https://winegame.net/"
 #~ "donate</a>"
 #~ msgstr ""
 #~ "Lutris wordt volledig onderhouden door de gemeenschap en zal altijd een "
@@ -4773,5 +4773,5 @@ msgstr ""
 #~ "Overweeg, als dat haalbaar is, een donatie te doen. Daarmee help je ons "
 #~ "om de hostingkosten te betalen en nieuwe functies te ontwikkelen, zoals "
 #~ "cloudopslag en een beeldvullende tv-modus.\n"
-#~ "<a href='https://lutris.net/donate'>ONDERSTEUN ONS! https://lutris.net/"
+#~ "<a href='https://winegame.net/donate'>ONDERSTEUN ONS! https://winegame.net/"
 #~ "donate</a>"
